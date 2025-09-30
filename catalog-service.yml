@@ -7,10 +7,10 @@ spring:
 server:
     port : 8082
 eureka:
-   client:
-      regeisterWithEureka: true
-      fetchRegistry: true
-      serviceUrl:
-         defaultZone: http://localhost:8070/eureka/
-   instance:
-         prefreIpAddress: true
+    client: 
+        registerWithEureka: true
+        fetchRegistry: true
+        serviceUrl:
+            defaultZone: http://localhost:8070/eureka/
+    instance:
+        prefreIpAddress: true
