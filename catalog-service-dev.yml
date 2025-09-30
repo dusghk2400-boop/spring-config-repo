@@ -3,6 +3,6 @@ spring:
     name: catalog-service-DEV
 custom:
     name: development
-sever:
+server:
     port: 8083
     
